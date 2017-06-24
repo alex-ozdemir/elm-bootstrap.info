@@ -57,7 +57,7 @@ basic =
 groupBasicCode : Html msg
 groupBasicCode =
     Util.toMarkdownElm """
-ButtonGroup.group []
+ButtonGroup.buttonGroup []
     [ ButtonGroup.button [ Button.secondary ] [  text "Left" ]
     , ButtonGroup.button [ Button.secondary ] [  text "Middle" ]
     , ButtonGroup.button [ Button.secondary ] [  text "Right" ]
